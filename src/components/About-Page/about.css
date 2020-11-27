@@ -1,0 +1,214 @@
+/* .about-Page {
+    display: flex;
+    justify-content: space-between;
+    border: 1px solid white;
+    margin: 55px auto;
+    width: 1012px;
+    height: 715px;
+    background-color: white;
+}
+
+.img-Section {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin: 40px 200px 
+}
+
+.profile-Image img {
+    width: 350px;
+    height: 272px;
+}
+
+.profile-Text {
+    width: 600px;
+    color: white;
+}
+
+.info-Icons  {
+    display: flex;
+    flex-direction: column;
+}
+
+.about-Links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+    margin-right: 49px;
+    margin-left: 43px;
+}
+
+.about-Links a {
+    color: white;
+}
+
+.about-Info {
+    width: 322px;
+    text-align: center;
+    color: #736E6E;
+    padding-top: 55px;
+    padding-right: 30px;
+}
+
+.greetings {
+    text-align: start;
+    font-family: 'Amatic SC', cursive;
+    margin-right: 54px;
+    margin-left: 41px;
+    font-weight: bolder;
+}
+
+.greetings p {
+    font-size: 20px;
+    font-weight: bolder;
+    margin-bottom: 6px;
+}
+
+.greetings h2 {
+    font-size: 50px;
+    font-weight: bolder;
+    margin-top: 5px;
+    margin-bottom: 20px;
+}
+
+.greetings h5 {
+    font-size: 18px;
+    font-weight: bolder;
+    margin: 0;
+    margin-top: 5px;
+}
+
+.about-411 {
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+    font-size: 18px;
+    font-family: 'Gayathri', sans-serif;
+    font-weight: bolder;
+}
+
+.phone-Icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px;
+}
+
+.email-Icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px;
+}
+
+.add-Icons {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px;
+}
+
+.phone-Icons i {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.email-Icons i {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+.add-Icons i {
+    margin-top: 16px;
+    margin-left: 10px;
+}
+
+#p1 {
+    margin-right: 48px;
+}
+
+#p2 {
+    margin-right: -19px;
+}
+
+#p3 {
+    margin-right: 68px;
+}
+
+.about-Image img {
+    height: 450px;
+    width: 477px;
+    margin: 50px;
+    margin-top: 130px;
+}
+
+/* #about-linkedin-Icon {
+    border: 1px solid white;
+    height: 35px;
+    width: 58px;
+    padding-top: 18px;
+    background-color: #C5C5C5;
+    text-shadow: 1px 1px #736E6E;
+    border-radius: 5px;
+} */
+
+/* #about-linkedin-Icon:hover {
+    background-color: #F2F0F0;
+    border: 1px solid black;
+}
+
+#about-github-Icon {
+    border: 1px solid white;
+    height: 35px;
+    width: 58px;
+    padding-top: 18px;
+    background-color: #C5C5C5;
+    text-shadow: 1px 1px #736E6E;
+    border-radius: 5px;
+}
+
+#about-github-Icon:hover {
+    background-color: #F2F0F0;
+    border: 1px solid black;
+}
+
+#about-email-Icon {
+    border: 1px solid white;
+    height: 35px;
+    width: 58px;
+    padding-top: 18px;
+    background-color: #C5C5C5;
+    text-shadow: 1px 1px #736E6E;
+    border-radius: 5px;
+}
+
+#about-email-Icon:hover {
+    background-color: #F2F0F0;
+    border: 1px solid black;
+}
+
+.about-Bio p {
+    margin-left: 42px;
+    text-align: start;
+    font-family: 'Gayathri', sans-serif;
+}
+
+.greetings p span {
+    color: #F14545;
+    font-size: 40px;
+    font-weight: bolder;
+}
+
+.greetings h2 span {
+    font-size: 50px;
+    color: #F14545;
+}
+
+.greetings span:nth-of-type(2) {
+    font-size: 50px;
+}
+ */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
+  #aboutpage {
+    background: #e56060;
+    height: 1190px;
+  }
+}

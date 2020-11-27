@@ -1,0 +1,28 @@
+import React from "react";
+import "./App.css";
+import NavBar from "./components/Navbar/navBar";
+import Footer from "./components/Footer/footer";
+import HomePage from "./components/Home-Page/home";
+import AboutPage from "./components/About-Page/about";
+import Projects from "./components/Projects/projects";
+import Contact from "./components/Contact/contact";
+import { BrowserRouter as Router, Route } from "react-router-dom";
+
+function App() {
+  return (
+    <div className="App">
+      <Router>
+        <div>
+          <NavBar />
+          <Route exact path="/" component={HomePage} />
+        </div>
+        <Route exact path="/projects" component={Projects} />
+        <Route exact path="/about" component={AboutPage} />
+        <Route exact path="/contact" component={Contact} />
+      </Router>
+      {/* <Footer />       */}
+    </div>
+  );
+}
+
+export default App;

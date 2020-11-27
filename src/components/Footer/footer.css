@@ -1,0 +1,30 @@
+.footer-Section {
+  display: flex;
+  flex-direction: column;
+}
+
+.footer-Social-Links {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  width: 345px;
+  margin: auto;
+}
+
+.footer-Social-Links i {
+  display: flex;
+  justify-content: space-evenly;
+  margin-bottom: 30px;
+  color: white;
+}
+
+.footer-Social-Links i:hover {
+  color: #fc8c8c;
+  font-weight: bolder;
+}
+
+.copyright {
+  color: white;
+  text-align: center;
+  font-family: "Gayathri", sans-serif;
+}

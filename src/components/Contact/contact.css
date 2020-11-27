@@ -1,0 +1,183 @@
+.contact-top {
+  background: white;
+  padding-top: 35px;
+}
+
+.ContactPage {
+  height: 750px;
+}
+
+.contact-top p {
+  text-align: center;
+  padding-bottom: 80px;
+}
+
+.ContactForm {
+  background-image: url(https://res.allmacwallpaper.com/get/iMac-21-inch-wallpapers/Abstract-blue-leaf-1920x1080/1995-9.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 400px;
+  padding-top: 50px;
+}
+
+.contact-form {
+  width: 900px;
+  height: 285px;
+  margin: auto;
+  margin-top: 50px;
+  border: 5px solid white;
+  background: #35486c;
+  border-radius: 12px;
+  border-radius: 20px;
+}
+
+.c-f-links {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 40px;
+  margin-right: 49px;
+  margin-left: 49px;
+}
+
+.contact-links-left {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact-links-left a {
+  color: #6baed5;
+  font-size: 27px;
+}
+
+.cll-1 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.cll-1 i {
+  padding-top: 17px;
+  padding-left: 2px;
+}
+
+.cll-2 i {
+  padding-top: 17px;
+  padding-left: 2px;
+}
+
+.cll-3 i {
+  padding-top: 17px;
+  padding-left: 2px;
+}
+
+.cll-2 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.cll-3 {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+
+.contact-links-middle {
+  color: #35486c;
+  height: 36px;
+  width: 220px;
+  padding-top: 6px;
+  text-align: center;
+  border-radius: 5px;
+  text-align: center;
+  cursor: pointer;
+  text-decoration: none;
+  background: white;
+  padding-top: 13px;
+  border: 5px solid white;
+}
+
+.contact-links-middle:hover {
+  background: #35486c;
+  color: white;
+  border: 3px solid white;
+  cursor: pointer;
+}
+
+.contact-links-middle label {
+  font-size: 22px;
+  font-weight: bolder;
+  cursor: pointer;
+}
+
+.contact-links-right {
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
+}
+
+.contact-links-right a {
+  color: #e5ecf0;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.c-l-phone {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.c-l-phone i {
+  padding-top: 21px;
+  padding-left: 3px;
+}
+
+.c-l-mail {
+  height: 60px;
+  width: 60px;
+  border: 1px solid white;
+  border-radius: 50%;
+  margin-bottom: 10px;
+  cursor: pointer;
+}
+
+.c-l-mail i {
+  padding-top: 21px;
+  padding-left: 3px;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .contact-form {
+    max-width: 300px;
+  }
+  .c-f-links {
+    flex-direction: column;
+  }
+  .contact-links-left {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-bottom: 15px;
+  }
+  .contact-links-right {
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    margin-top: 20px;
+  }
+  .contact-links-middle {
+    width: 165px !important;
+    margin: auto !important;
+  }
+}
