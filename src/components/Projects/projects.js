@@ -289,8 +289,8 @@ class Projects extends React.Component {
                 <h2>Organize App</h2>
                 <h4>Organize planner Website</h4>
                 <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="#">Visit Site</a>
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/official-portfolio">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://redux-apps.herokuapp.com/">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/firebase-app">
                     View GitHub
                   </a>
                 </div>
