@@ -24,9 +24,9 @@ const ContactForm = () => {
             </div>
           </div>
 
-          <Link to="/resume" className="contact-links-middle">
+          {/* <Link to="/resume" className="contact-links-middle">
             <label>View Resume</label>
-          </Link>
+          </Link> */}
 
           <div className="contact-links-right">
             <div className="c-l-phone">

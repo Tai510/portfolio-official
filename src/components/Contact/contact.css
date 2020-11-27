@@ -13,9 +13,7 @@
 }
 
 .ContactForm {
-  background-image: url(https://res.allmacwallpaper.com/get/iMac-21-inch-wallpapers/Abstract-blue-leaf-1920x1080/1995-9.jpg);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #df7e5f;
   height: 400px;
   padding-top: 50px;
 }

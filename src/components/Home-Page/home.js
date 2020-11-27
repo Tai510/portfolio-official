@@ -3,9 +3,11 @@ import styled from "styled-components";
 import Projects from "../Projects/projects";
 import AboutPage from "../About-Page/about";
 import Contact from "../Contact/contact";
+import { Link } from 'react-router-dom';
+
 
 const Home = styled.div`
-  height: 537px;
+  height: 580px;
   width: 100%;
   padding-top: 170px;
   text-shadow: 1px 1px black;
@@ -15,20 +17,40 @@ const Home = styled.div`
   /* Home Media Query */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     padding-top: 15px;
-
+    height: 493px;
     h1 {
-      font-size: 33px !important;
+      font-size: 35px !important;
     }
-
     h6 {
       font-size: 12px !important;
       width: 100%;
     }
 
     p {
-      font-size: 15px !important;
+      font-size: 20px !important;
+    }
+    span {
+      font-size: 18px;
     }
   } /* Home Media Query end */
+
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    height: 737px;
+    h1 {
+      font-size: 40px !important;
+    }
+    h6 {
+      font-size: 12px !important;
+      width: 100%;
+    }
+
+    p {
+      font-size: 28px !important;
+    }
+    span {
+      font-size: 20px;
+    }
+  }
 
   .intro {
     margin: auto;
@@ -162,6 +184,14 @@ const ProjectButton = styled.div`
       text-shadow: 1px 1px white;
     }
   }
+  @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+    .view-projects-button {
+      height: 45px !important;
+      width: 236px !important;
+      font-size: 24px !important;
+      margin-left: -45px;
+    }
+  }
 `;
 
 const AboutButton = styled.div`
@@ -226,20 +256,14 @@ class HomePage extends React.Component {
           </div>
           <Buttons>
             <ProjectButton>
-              <a href="#projects">
-                <span class="view-projects-button ">
+              <Link to='/projects'>
+                <span className="view-projects-button ">
                   View Projects <i class="fas fa-arrow-down"></i>
                 </span>
-              </a>
+              </Link>
             </ProjectButton>
-            {/* <AboutButton>
-                            <Link id='link-projects' to='/about'><span class="view-about-button ">About Me</span></Link>
-                        </AboutButton> */}
           </Buttons>
         </Home>
-        <Projects />
-        <AboutPage />
-        <Contact />
       </div>
     );
   }

@@ -4,9 +4,10 @@ import styled from "styled-components";
 import weather from "../images/weather-app.png";
 import taste from "../images/taste.png";
 import organize from "../images/organize.png";
+import myphy from "../images/myphy.png";
 
 const PortfolioPage = styled.div`
-  background: #b3d9b3;
+  background: #df7e5f;;
   height: 100%;
   .project-top {
     background: white;
@@ -230,7 +231,7 @@ class Projects extends React.Component {
         <div className="project-top">
           <H1Top>Projects</H1Top>
           <H3Top>What I've been up to.</H3Top>
-          <p>Here's a some of my recent work.</p>
+          <p>Here are some of my recent work.</p>
         </div>
         <ProjectDiv>
           <div className="weather-div">
@@ -306,6 +307,31 @@ class Projects extends React.Component {
                 Used React, React Bootstrap, Firebase, Styled Components, Css
               </p>
               <p>Full Stack Project</p>
+            </div>
+          </div>
+
+          <div className="organize-div">
+            <div className="post">
+              <img src={myphy}></img>
+              <div className="post-s">
+                <h2>Myphy Dreams</h2>
+                <h4>Full Stack Project</h4>
+                <div className="hover-buttons">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://mympydreamers.netlify.app/">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/mympy-dreamers/Frontend">
+                    View GitHub
+                  </a>
+                </div>
+              </div>
+            </div>
+            <div className="div-info">
+              <h3>Myphy Dreams</h3>
+              <p>
+              Mympy Dream is a marketplace where individuals 
+              can create a profile and post their project and 
+              needs and find funding from the Mymphy Dreams community.
+              </p>
+              <p>React, Redux, Postgress,Rest API, AuthO, Stripe, Cloudnary, Node</p>
             </div>
           </div>
         </ProjectDiv>

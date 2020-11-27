@@ -4,7 +4,7 @@ import images from "../images/profilePic.jpg";
 import styled from "styled-components";
 
 const AboutPageMain = styled.div`
-  background: #e56060;
+  background: #df7e5f;;
   height: 890px;
   .about-Page {
     display: flex;
