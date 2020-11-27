@@ -84,10 +84,10 @@ const RightNav = ({ open }) => {
         <Link to='/about'>About</Link>
       </li>
       <li>
-        <Link to='contact'>Contact</Link>
+        <Link to='/contact'>Contact</Link>
       </li>
       <li>
-        <Link to='resume'>Resume</Link>
+        <Link to='/resume'>Resume</Link>
       </li>
     </Ul>
   );

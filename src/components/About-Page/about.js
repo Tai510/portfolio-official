@@ -142,7 +142,7 @@ class AboutPage extends React.Component {
             <div>
               <p>
                 I am passionate Web Developer. Recently Graduated from Lambda
-                School 9-month coding acedemy. Currently looking for a job and
+                School 9-month coding acedemy. I am a Front End Developer with passion for problem solving and creating intuitive, dynamic user experiences. Currently looking for a job and
                 can start immediately.
               </p>
             </div>

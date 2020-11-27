@@ -24,19 +24,15 @@ const ContactForm = () => {
             </div>
           </div>
 
-          {/* <Link to="/resume" className="contact-links-middle">
-            <label>View Resume</label>
-          </Link> */}
-
           <div className="contact-links-right">
             <div className="c-l-phone">
               <a href="tel:+1-510-409-2855">
-                <i class="fas fa-phone"></i>
+                Phone Call <i class="fas fa-phone"></i>
               </a>
             </div>
             <div className="c-l-mail">
               <a href="mailto:tashiwoeser@gmail.com">
-                <i class="fas fa-envelope"></i>
+                <label>E-mail </label><i class="fas fa-envelope"></i>
               </a>
             </div>
           </div>

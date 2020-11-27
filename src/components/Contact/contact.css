@@ -19,14 +19,14 @@
 }
 
 .contact-form {
-  width: 900px;
-  height: 285px;
+  width: 710px;
+  height: 245px;
   margin: auto;
-  margin-top: 50px;
-  border: 5px solid white;
+  border: 3px solid white;
   background: #35486c;
   border-radius: 12px;
-  border-radius: 20px;
+  border-radius: 4px;
+  padding-bottom: 50px;
 }
 
 .c-f-links {
@@ -128,10 +128,10 @@
 }
 
 .c-l-phone {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 195px;
   border: 1px solid white;
-  border-radius: 50%;
+  border-radius: 5px;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -142,10 +142,10 @@
 }
 
 .c-l-mail {
-  height: 60px;
-  width: 60px;
+  height: 55px;
+  width: 195px;
   border: 1px solid white;
-  border-radius: 50%;
+  border-radius: 5px;
   margin-bottom: 10px;
   cursor: pointer;
 }
@@ -158,6 +158,7 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .contact-form {
     max-width: 300px;
+    padding-bottom: 80px;
   }
   .c-f-links {
     flex-direction: column;
@@ -170,6 +171,7 @@
   }
   .contact-links-right {
     display: flex;
+    flex-direction: column !important;
     justify-content: space-between;
     flex-direction: row;
     margin-top: 20px;
