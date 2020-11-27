@@ -17,15 +17,7 @@ const PortfolioPage = styled.div`
       padding-bottom: 80px;
     }
   }
-  .pencil-image {
-    height: 150px;
-    width: 150px;
-    border-radius: 50%;
-    border: 1px solid black;
-    margin: auto !important;
-    display: flex;
-    align-items: center !important;
-  }
+  
   /* PortfolioPage Media Query */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
     height: 100%;
@@ -107,7 +99,7 @@ const ProjectDiv = styled.div`
   .post {
     width: 420px;
     height: 280px;
-    position: relative;
+    // position: relative;
     cursor: pointer;
     /* .post Media Query */
     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -237,18 +229,6 @@ class Projects extends React.Component {
           <div className="weather-div">
             <div className="post">
               <img src={weather}></img>
-              <div className="post-s">
-                <h2>Weather App</h2>
-                <h4>Live weather from around the world</h4>
-                <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://world-weather-website.herokuapp.com/">
-                    Visit Site
-                  </a>
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/weather-app">
-                    View GitHub
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="div-info">
               <h3>Weather app info</h3>
@@ -258,20 +238,20 @@ class Projects extends React.Component {
               </p>
               <p>Used React, Styled Component, Css</p>
               <p>Self Project using Public Api</p>
+              <div className="hover-buttons">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://world-weather-website.herokuapp.com/">
+                    Visit Site
+                  </a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/weather-app">
+                    View GitHub
+                  </a>
+              </div>
             </div>
           </div>
 
           <div className="taste-div">
             <div className="post">
               <img src={taste}></img>
-              <div className="post-s">
-                <h2>Taste Website</h2>
-                <h4>Website for Taste of the Himalayas</h4>
-                <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://taste-official.herokuapp.com/">Visit Site</a>
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/taste-official">View GitHub</a>
-                </div>
-              </div>
             </div>
             <div className="div-info">
               <h3>Taste of Himalayas Website</h3>
@@ -280,22 +260,20 @@ class Projects extends React.Component {
               </p>
               <p>Used React, React Bootstrap, Styled Components, Css</p>
               <p>Fully Responsive on small devices</p>
+              <div className="hover-buttons">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://world-weather-website.herokuapp.com/">
+                    Visit Site
+                  </a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/weather-app">
+                    View GitHub
+                  </a>
+              </div>
             </div>
           </div>
 
           <div className="organize-div">
             <div className="post">
               <img src={organize}></img>
-              <div className="post-s">
-                <h2>Organize App</h2>
-                <h4>Organize planner Website</h4>
-                <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://redux-apps.herokuapp.com/">Visit Site</a>
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/firebase-app">
-                    View GitHub
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="div-info">
               <h3>Daily Planner App</h3>
@@ -307,22 +285,18 @@ class Projects extends React.Component {
                 Used React, React Bootstrap, Firebase, Styled Components, Css
               </p>
               <p>Full Stack Project</p>
+              <div className="hover-buttons">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://redux-apps.herokuapp.com/">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/firebase-app">
+                    View GitHub
+                  </a>
+                </div>
             </div>
           </div>
 
           <div className="organize-div">
             <div className="post">
               <img src={myphy}></img>
-              <div className="post-s">
-                <h2>Myphy Dreams</h2>
-                <h4>Full Stack Project</h4>
-                <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://mympydreamers.netlify.app/">Visit Site</a>
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/mympy-dreamers/Frontend">
-                    View GitHub
-                  </a>
-                </div>
-              </div>
             </div>
             <div className="div-info">
               <h3>Myphy Dreams</h3>
@@ -332,69 +306,15 @@ class Projects extends React.Component {
               needs and find funding from the Mymphy Dreams community.
               </p>
               <p>React, Redux, Postgress,Rest API, AuthO, Stripe, Cloudnary, Node</p>
+              <div className="hover-buttons">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://mympydreamers.netlify.app/">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/mympy-dreamers/Frontend">
+                    View GitHub
+                  </a>
+                </div>
             </div>
           </div>
         </ProjectDiv>
-
-        {/* <div class="centerflipcards clearfix">
-
-                    <div class="col-md-4">
-                        <div class="card-flip">
-                            <div id='weather-app' class='frontCard invCard'>
-                                <div class="card-container">
-                                    <i class="fas fa-bolt"></i>
-                                    <h2 class="textshadow">Weather App</h2>
-                                    <h3 class="textshadow">Live Weather from around the world</h3>
-                                </div>
-                            </div>
-
-                            <div class='backCard invCard2'>
-                                <div class="card-container2">
-                                    <a class="boxshadow flip-button" href='https://my-world-weather-app.herokuapp.com/'>View Project</a>
-                                    <a class="boxshadow flip-button" href='https://github.com/Tai510/world-weather-app'>View GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card-flip">
-                            <div class='frontCard applyCard'>
-                                <div class="card-container">
-                                    <i class="fas fa-utensils"></i>
-                                    <h2 class="textshadow">Taste Website</h2>
-                                    <h3 class="textshadow">Website for Taste of the Himalayas</h3>
-                                </div>
-                            </div>
-
-                            <div class='backCard applyCard2'>
-                                <div class="card-container2">
-                                    <a class="boxshadow flip-button" href='https://warm-sea-79088.herokuapp.com/'>View Project</a>
-                                    <a class="boxshadow flip-button" href='https://github.com/Tai510/toth'>View GitHub</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                    <div class="col-md-4">
-                        <div class="card-flip">
-                            <div class='frontCard directionsCard'>
-                                <div class="card-container">
-                                    <i class="fas fa-download"></i>
-                                    <h2 class="textshadow">Organize App</h2>
-                                    <h3 class="textshadow">Website to organize daily chores and live news.</h3>
-                                </div>
-                            </div>
-
-                            <div class='backCard directionsCard2'>
-                                <div class="card-container2">
-                                    <a class="boxshadow flip-button" href="#">View Project</a>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-                </div> */}
       </PortfolioPage>
     );
   }

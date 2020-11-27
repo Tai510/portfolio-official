@@ -8,7 +8,7 @@ const Nav = styled.div`
   display: flex;
   justify-content: center;
   color: #a19e9e;
-  background: #df7e5f;
+  background: #816e9e;
   @media only screen 
 and (min-device-width : 320px) 
 and (max-device-width : 568px) { 

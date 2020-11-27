@@ -4,10 +4,12 @@ import Projects from "../Projects/projects";
 import AboutPage from "../About-Page/about";
 import Contact from "../Contact/contact";
 import { Link } from 'react-router-dom';
+// import Navbar from "../Navbar/navBar";
+import Navigation from '../Navbar/nav';
 
 
 const Home = styled.div`
-  height: 580px;
+  height: 630px;
   width: 100%;
   padding-top: 170px;
   text-shadow: 1px 1px black;
@@ -194,46 +196,46 @@ const ProjectButton = styled.div`
   }
 `;
 
-const AboutButton = styled.div`
-  margin: auto !important;
-  width: 150px;
-  margin-top: 50px !important;
+// const AboutButton = styled.div`
+//   margin: auto !important;
+//   width: 150px;
+//   margin-top: 50px !important;
 
-  #link-projects {
-    border: none;
-  }
+//   #link-projects {
+//     border: none;
+//   }
 
-  .view-about-button {
-    display: inline-block;
-    width: 200px;
-    padding-top: 15px;
-    color: #fff;
-    border: 2px solid #fff;
-    text-align: center;
-    outline: none;
-    text-decoration: none;
-    font-size: 17px;
-    font-weight: bolder !important;
-    height: 32px;
-    width: 140px;
-    margin: 2px 3px;
-    border-radius: 3px;
-    text-shadow: 1px 1px black;
+//   .view-about-button {
+//     display: inline-block;
+//     width: 200px;
+//     padding-top: 15px;
+//     color: #fff;
+//     border: 2px solid #fff;
+//     text-align: center;
+//     outline: none;
+//     text-decoration: none;
+//     font-size: 17px;
+//     font-weight: bolder !important;
+//     height: 32px;
+//     width: 140px;
+//     margin: 2px 3px;
+//     border-radius: 3px;
+//     text-shadow: 1px 1px black;
 
-    /* .view-about-button Media Query */
-    @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-      width: 110px;
-      font-size: 15px;
-    } /* .view-about-button Media Query end */
+//     /* .view-about-button Media Query */
+//     @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+//       width: 110px;
+//       font-size: 15px;
+//     } /* .view-about-button Media Query end */
 
-    :hover,
-    :active {
-      background-color: #fff;
-      color: #000;
-      text-shadow: 1px 1px white;
-    }
-  }
-`;
+//     :hover,
+//     :active {
+//       background-color: #fff;
+//       color: #000;
+//       text-shadow: 1px 1px white;
+//     }
+//   }
+// `;
 
 class HomePage extends React.Component {
   render() {
@@ -264,6 +266,11 @@ class HomePage extends React.Component {
             </ProjectButton>
           </Buttons>
         </Home>
+        {/* <Navbar /> */}
+        <Navigation />
+        <Projects />
+        <AboutPage />
+        <Contact />
       </div>
     );
   }

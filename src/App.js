@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <Router>
         <div>
-          <NavBar />
+          {/* <NavBar /> */}
           <Route exact path="/" component={HomePage} />
         </div>
         <Route exact path="/projects" component={Projects} />
