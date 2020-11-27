@@ -297,7 +297,7 @@ class Projects extends React.Component {
               </div>
             </div>
             <div className="div-info">
-              <h3>Organize App</h3>
+              <h3>Daily Planner App</h3>
               <p>
                 Create an Account and use organize to help with daily planning
                 with live news , weather and calender.

@@ -16,3 +16,11 @@
     padding-bottom: 35px;
   }
 }
+
+
+.hover-buttons  {
+  display: flex;
+  justify-content: space-between;
+  width: 235px;
+  margin: auto;
+}
