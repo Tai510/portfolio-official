@@ -30,8 +30,8 @@ const MessageForm = () => {
   };
 
   return (
-    <div>
-      <form onSubmit={handleSubmit}>
+    <div className='MessageForm'>
+      <form className='form-div' onSubmit={handleSubmit}>
         <input
           placeholder="Name"
           value={name}
@@ -42,11 +42,11 @@ const MessageForm = () => {
           value={email}
           onChange={(e) => setEmail(e.target.value)}
         ></input>
-        <input
+        <textarea
           placeholder="Message"
           value={message}
           onChange={(e) => setMessage(e.target.value)}>
-          </input>
+          </textarea>
         <button type="submit">Submit</button>
       </form>
       {/* <button onClick={() => {
