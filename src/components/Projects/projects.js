@@ -261,7 +261,7 @@ class Projects extends React.Component {
               <p>Used React, React Bootstrap, Styled Components, Css</p>
               <p>Fully Responsive on small devices</p>
               <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://world-weather-website.herokuapp.com/">
+                  <a style={{ display: "table-cell" }} target="_blank" href="http://himalayasinsonoma.com/">
                     Visit Site
                   </a>
                   <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/weather-app">
@@ -286,7 +286,7 @@ class Projects extends React.Component {
               </p>
               <p>Full Stack Project</p>
               <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://auth-production-8d2eb.web.app/login">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://auth-production-8d2eb.web.app">Visit Site</a>
                   <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/firebase-app">
                     View GitHub
                   </a>
