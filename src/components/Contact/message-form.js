@@ -5,7 +5,7 @@ const MessageForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
-  const [count, setCount] = useState(0);
+
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -49,9 +49,6 @@ const MessageForm = () => {
           </textarea>
         <button type="submit">Submit</button>
       </form>
-      {/* <button onClick={() => {
-          alert('It Worked!!!')
-        }}>Alert</button> */}    
     </div>
   );
 };
