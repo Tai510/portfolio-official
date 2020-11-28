@@ -13,7 +13,7 @@
 }
 
 .ContactForm {
-  background: #df7e5f;
+  background: #c4c550;
   height: 400px;
   padding-top: 50px;
 }
@@ -23,7 +23,7 @@
   height: 245px;
   margin: auto;
   border: 3px solid white;
-  background: #35486c;
+  background: #4d6e7d;
   border-radius: 12px;
   border-radius: 4px;
   padding-bottom: 50px;
@@ -44,7 +44,7 @@
 }
 
 .contact-links-left a {
-  color: #6baed5;
+  color: #dbdee0;
   font-size: 27px;
 }
 
@@ -58,17 +58,14 @@
 
 .cll-1 i {
   padding-top: 17px;
-  padding-left: 2px;
 }
 
 .cll-2 i {
   padding-top: 17px;
-  padding-left: 2px;
 }
 
 .cll-3 i {
   padding-top: 17px;
-  padding-left: 2px;
 }
 
 .cll-2 {

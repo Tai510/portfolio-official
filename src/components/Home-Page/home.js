@@ -14,7 +14,10 @@ const Home = styled.div`
   padding-top: 170px;
   text-shadow: 1px 1px black;
   border-bottom: 3px solid white;
-  background: #df7e5f;
+  background-image: url('https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+  background-size: cover;
+  background-repeat: no-reapeat;
+  // opacity: 0.6;
 
   /* Home Media Query */
   @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -258,11 +261,11 @@ class HomePage extends React.Component {
           </div>
           <Buttons>
             <ProjectButton>
-              <Link to='/projects'>
+              <a href='/#projects'>
                 <span className="view-projects-button ">
                   View Projects <i class="fas fa-arrow-down"></i>
                 </span>
-              </Link>
+              </a>
             </ProjectButton>
           </Buttons>
         </Home>

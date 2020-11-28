@@ -7,7 +7,7 @@ import organize from "../images/organize.png";
 import myphy from "../images/myphy.png";
 
 const PortfolioPage = styled.div`
-  background: #df7e5f;;
+  background: #984343;
   height: 100%;
   .project-top {
     background: white;
