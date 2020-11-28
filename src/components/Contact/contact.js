@@ -3,6 +3,7 @@ import "./contact.css";
 import profile from "../images/profilePic.jpg";
 import styled from "styled-components";
 import ContactForm from "./contact-form";
+import MessageForm from "./message-form";
 
 const H1Top = styled.div`
   text-align: center;
@@ -30,7 +31,7 @@ const Contact = () => {
         <H3Top>Get in touch</H3Top>
         <p>Have a question or want to work together?</p>
       </div>
-      <ContactForm />
+      <MessageForm />
     </div>
   );
 };

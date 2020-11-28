@@ -1,7 +1,33 @@
-import React from "react";
-import { Link } from "react-router-dom";
+import React, { useState } from "react";
+import { db } from "../firebase";
 
 const ContactForm = () => {
+  const [name, setName] = useState("");
+  const [email, setEmail] = useState("");
+  const [message, setMessage] = useState("");
+
+  const handleSubmit = (e) => {
+    e.preventDefault();
+
+    db.collection("contacts")
+      .add({
+        name: name,
+        email: email,
+        message: message,
+      })
+      .then(() => {
+        alert("Message has been submitted!!!!");
+      })
+      .catch((error) => {
+        alert(error.message);
+        console.log("Didnt send message!!!");
+      });
+
+    setName("");
+    setEmail("");
+    setMessage("");
+  };
+
   return (
     <div className="ContactForm">
       <div className="contact-form">
@@ -32,7 +58,8 @@ const ContactForm = () => {
             </div>
             <div className="c-l-mail">
               <a href="mailto:tashiwoeser@gmail.com">
-                <label>E-mail </label><i class="fas fa-envelope"></i>
+                <label>E-mail </label>
+                <i class="fas fa-envelope"></i>
               </a>
             </div>
           </div>

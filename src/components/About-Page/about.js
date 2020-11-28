@@ -150,17 +150,17 @@ class AboutPage extends React.Component {
             <div>
               <div className="about-Links">
                 <div>
-                  <a href="https://www.linkedin.com/in/tashi-woeser-62b538167/">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://www.linkedin.com/in/tashi-woeser-62b538167/">
                     <i id="aboutIcon" class="fab fa-linkedin-in"></i>
                   </a>
                 </div>
                 <div id="about-github-Icon">
-                  <a href="https://github.com/Tai510">
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510">
                     <i id="aboutIcon" class="fab fa-github"></i>
                   </a>
                 </div>
                 <div id="about-email-Icon">
-                  <a href="mailto:tashiwoeser@gmail.com">
+                  <a style={{ display: "table-cell" }} target="_blank" href="mailto:tashiwoeser@gmail.com">
                     <i id="aboutIcon" class="far fa-envelope"></i>
                   </a>
                 </div>

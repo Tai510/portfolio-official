@@ -3,10 +3,9 @@ import styled from "styled-components";
 import Projects from "../Projects/projects";
 import AboutPage from "../About-Page/about";
 import Contact from "../Contact/contact";
-import { Link } from 'react-router-dom';
+import { Link } from "react-router-dom";
 // import Navbar from "../Navbar/navBar";
-import Navigation from '../Navbar/nav';
-
+import Navigation from "../Navbar/nav";
 
 const Home = styled.div`
   height: 630px;
@@ -14,7 +13,7 @@ const Home = styled.div`
   padding-top: 170px;
   text-shadow: 1px 1px black;
   border-bottom: 3px solid white;
-  background-image: url('https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80');
+  background-image: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80");
   background-size: cover;
   background-repeat: no-reapeat;
   // opacity: 0.6;
@@ -261,7 +260,7 @@ class HomePage extends React.Component {
           </div>
           <Buttons>
             <ProjectButton>
-              <a href='/#projects'>
+              <a href="/#projects">
                 <span className="view-projects-button ">
                   View Projects <i class="fas fa-arrow-down"></i>
                 </span>
