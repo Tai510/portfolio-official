@@ -14,16 +14,27 @@
     margin-left: 0 !important;
     width: 100% !important;
     padding-bottom: 35px;
-    height: 425px !important;
+    height: 100% !important;
   }
 }
-
 
 .hover-buttons  {
   display: flex;
   justify-content: space-between;
   width: 235px;
   margin: auto;
+}
+
+.hover-buttons a {
+  padding: 10px;
+    background: grey;
+    color: white;
+    border-radius: 3px;
+    text-decoration: none;
+}
+
+.hover-buttons a:hover {
+    background: rgb(180, 179, 179);
 }
 
 
