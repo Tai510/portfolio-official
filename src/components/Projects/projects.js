@@ -286,7 +286,7 @@ class Projects extends React.Component {
               </p>
               <p>Full Stack Project</p>
               <div className="hover-buttons">
-                  <a style={{ display: "table-cell" }} target="_blank" href="https://redux-apps.herokuapp.com/">Visit Site</a>
+                  <a style={{ display: "table-cell" }} target="_blank" href="https://auth-production-8d2eb.web.app/login">Visit Site</a>
                   <a style={{ display: "table-cell" }} target="_blank" href="https://github.com/Tai510/firebase-app">
                     View GitHub
                   </a>
