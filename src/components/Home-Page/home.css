@@ -1,0 +1,187 @@
+.Home {
+  height: 630px;
+  width: 100%;
+  padding-top: 170px;
+  text-shadow: 1px 1px black;
+  border-bottom: 3px solid white;
+  background-image: url("https://images.unsplash.com/photo-1581472723648-909f4851d4ae?ixlib=rb-1.2.1&ixid=MXwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHw%3D&auto=format&fit=crop&w=1950&q=80");
+  background-size: cover;
+  background-repeat: no-repeat;
+  opacity: 0.8;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .Home {
+    padding-top: 15px;
+    height: 500px;
+  }
+  h1 {
+    font-size: 35px !important;
+  }
+  h6 {
+    font-size: 12px !important;
+    width: 100%;
+  }
+  p {
+    font-size: 20px !important;
+  }
+  span {
+    font-size: 18px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .Home {
+    height: 737px;
+  }
+  h1 {
+    font-size: 40px !important;
+  }
+  h6 {
+    font-size: 12px !important;
+    width: 100%;
+  }
+
+  p {
+    font-size: 28px !important;
+  }
+  span {
+    font-size: 20px;
+  }
+}
+
+.Home .intro {
+  margin: auto;
+}
+
+.Home h1 {
+  color: white;
+  font-size: 50px;
+  font-family: "Gayathri", sans-serif;
+  margin: 0 auto 0 auto;
+  text-align: center;
+}
+
+.Home p {
+  color: white;
+  font-size: 20px;
+  font-family: "Gayathri", sans-serif;
+  font-weight: bolder;
+  text-align: center;
+}
+
+.Home h6 {
+  color: white;
+  font-size: 18px;
+  font-family: "Gayathri", sans-serif;
+  text-shadow: 1px 1px black;
+  margin: auto;
+  font-weight: bolder !important;
+  width: 100%;
+  margin-top: 15px;
+  justify-content: center;
+}
+
+.Home span:hover {
+  background: #2a4760;
+  color: white;
+  text-shadow: 1px 1px black;
+}
+
+.Home span {
+  border: 2px solid white;
+  margin: 16px;
+  padding: 7px 5px 1px 5px;
+  border-radius: 2px;
+  background: white;
+  color: black;
+  text-shadow: 1px 1px white;
+}
+
+h6 div {
+  display: flex;
+  width: 360px;
+  margin: auto;
+  justify-content: center;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  h6 div {
+    width: 100%;
+    justify-content: center;
+  }
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .Home span {
+    margin: 7px;
+    background: white;
+    color: black;
+    text-shadow: 1px 1px white;
+  }
+}
+
+.Buttons {
+  display: flex;
+  width: 330px;
+  margin: auto !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .Buttons {
+    width: 242px;
+    margin: auto !important;
+    justify-content: center;
+  }
+}
+
+.button-div {
+  margin: auto !important;
+  width: 150px;
+  margin-top: 50px !important;
+}
+
+.button-div a {
+  border: none;
+}
+
+.Home .view-projects-button {
+  display: inline-block;
+  width: 200px;
+  padding-top: 12px;
+  color: #fff;
+  border: 2px solid #fff;
+  text-align: center;
+  outline: none;
+  text-decoration: none;
+  font-size: 17px;
+  font-weight: bolder !important;
+  height: 32px;
+  width: 155px;
+  margin: 2px 3px;
+  border-radius: 3px;
+  text-shadow: 1px 1px black;
+  background: none;
+}
+
+.Home .view-projects-button:hover {
+  background: white;
+  color: black;
+  text-shadow: 1px 1px white !important;
+}
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
+  .view-projects-button {
+    width: 140px;
+    font-size: 15px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .view-projects-button {
+    height: 45px !important;
+    width: 236px !important;
+    font-size: 24px !important;
+    margin-left: -45px;
+  }
+}
