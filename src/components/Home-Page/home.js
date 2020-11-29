@@ -1,5 +1,4 @@
 import React from "react";
-import styled from "styled-components";
 import Projects from "../Projects/projects";
 import AboutPage from "../About-Page/about";
 import Contact from "../Contact/contact";

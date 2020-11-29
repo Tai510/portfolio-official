@@ -1,30 +1,9 @@
 import React from "react";
 import "./projects.css";
-import styled from "styled-components";
 import weather from "../images/weather-app.png";
 import taste from "../images/taste.png";
 import organize from "../images/organize.png";
 import myphy from "../images/myphy.png";
-
-
-
-const H1Top = styled.div`
-  text-align: center;
-  color: black;
-  margin-top: 0;
-  padding-top: 30px;
-  font-size: 35px;
-  border-bottom: 2px solid black;
-  width: 145px;
-  margin: auto;
-`;
-
-const H3Top = styled.div`
-  text-align: center;
-  color: green;
-  font-size: 22px;
-  margin-top: 20px;
-`;
 
 
 class Projects extends React.Component {
@@ -32,8 +11,8 @@ class Projects extends React.Component {
     return (
       <div className='PortfolioPage' id="projects">
         <div className="project-top">
-          <H1Top>Projects</H1Top>
-          <H3Top>What I've been up to.</H3Top>
+          <div className='h1-top'>Projects</div>
+          <div className='h3-top'>What I've been up to.</div>
           <p>Here are some of my recent work.</p>
         </div>
         <div className='ProjectDiv'>

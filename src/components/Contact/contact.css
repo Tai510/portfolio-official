@@ -1,13 +1,27 @@
 .MessageForm {
-  height: 578px;
-  width: 468px;
+  height: 470px;
+  width: 100%;
   margin: auto;
-  /* border: 1px solid red; */
+  background: #252934;
+  border: 1px solid black;
+  padding-top: 100px;
+}
+
+.contact-top {
+  padding-top: 35px;
+}
+
+.contact-top p {
+  text-align: center;
+  padding-bottom: 80px;
 }
 
 .form-div {
   display: flex;
   flex-direction: column;
+  width: 468px;
+  margin: auto;
+  background: #252934;
 }
 
 .form-div input {
@@ -15,6 +29,9 @@
   height: 35px;
   margin-bottom: 10px;
   outline: none;
+  background: #1e242c;
+  border: 1px solid #1e242c;
+  color: white;
 }
 
 .form-div textarea {
@@ -22,35 +39,65 @@
   height: 120px;
   margin-bottom: 10px;
   outline: none;
+  background: #1e242c;
+  border: 1px solid #1e242c;
+  color: white;
+}
+
+.form-div input::placeholder {
+  padding-left: 20px;
+  font-size: 15px;
+}
+
+.form-div textarea::placeholder {
+  padding-left: 20px;
+  font-size: 15px;
 }
 
 .form-div button {
   width: 100px;
   height: 50px;
-  border: 3px solid grey;
+  border: 3px solid #fff;
   cursor: pointer;
   border-radius: 3px;
-  outline: none;
+  color: #fff;
+  float: right;
+  font-size: 12pt;
+  margin: 5px 0 0 0;
+  outline: 0;
+  background: transparent;
 }
 
 .form-div button:hover {
   background: rgb(113, 155, 49);
   color: white;
   outline: none;
+  border: 3px solid rgb(113, 155, 49);
 }
 
-@media only screen 
-and (min-device-width : 320px) 
-and (max-device-width : 568px) {
+@media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .MessageForm {
-    width: 300px;
-    height: 287px;
+    width: 100%;
+    height: 335px;
     margin-bottom: 40px;
   }
   .form-div input {
     width: 292px;
+    margin: auto;
+    margin-bottom: 2px;
   }
   .form-div textarea {
     width: 294px;
+    margin: auto;
+    margin-bottom: 2px;
   }
- }
+  .form-div {
+    width: 100%;
+  }
+  .form-div button {
+    margin-left: 10px;
+    width: 110px;
+    font-size: 20px;
+    margin-top: 20px;
+  }
+}

@@ -109,3 +109,12 @@
   padding-bottom: 80px;
 }
 
+.about-Info h1 {
+  font-size: 2.25rem;
+  font-weight: lighter;
+  text-align: center;
+  padding: 0.5rem;
+  font-weight: bolder;
+  font-family: "Amatic SC", cursive;
+}
+

@@ -1,42 +1,15 @@
 import React from "react";
 import "./about.css";
 import images from "../images/profilePic.jpg";
-import styled from "styled-components";
 
-const H1Top = styled.div`
-  text-align: center;
-  color: black;
-  margin-top: 0;
-  padding-top: 30px;
-  font-size: 35px;
-  border-bottom: 2px solid black;
-  width: 150px;
-  margin: auto;
-`;
-
-const H3Top = styled.div`
-  text-align: center;
-  color: green;
-  font-size: 22px;
-  margin-top: 20px;
-`;
-
-const AboutH1 = styled.h1`
-  font-size: 2.25rem;
-  font-weight: lighter;
-  text-align: center;
-  padding: 0.5rem;
-  font-weight: bolder;
-  font-family: "Amatic SC", cursive;
-`;
 
 class AboutPage extends React.Component {
   render() {
     return (
-      <div className="AboutPage ">
+      <div className="AboutPage " id="aboutpage">
         <div className="project-top">
-          <H1Top>About Me</H1Top>
-          <H3Top>Hard working, Passionate, Team Player.</H3Top>
+          <div className='h1-top'>About Me</div>
+          <div className='h3-top'>Hard working, Passionate, Team Player.</div>
           <p>I am extremely passionate about Web Development</p>
         </div>
         <div className="about-image-div">
@@ -46,7 +19,7 @@ class AboutPage extends React.Component {
 
           <div className="about-Info">
             <div>
-              <AboutH1>Hi. I'm Tashi, nice to meet you.</AboutH1>
+              <h1>Hi. I'm Tashi, nice to meet you.</h1>
             </div>
             <div>
               <p>
