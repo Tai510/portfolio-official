@@ -33,7 +33,6 @@ class HomePage extends React.Component {
                   View Projects <i class="fas fa-arrow-down"></i>
                 </span>
               </a>
-              {/* <button onClick={() => console.log('Clicked!')}>alert</button> */}
             </div>
           </div>
         </div>
