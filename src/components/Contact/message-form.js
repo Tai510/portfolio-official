@@ -6,7 +6,6 @@ const MessageForm = () => {
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
 
-
   const handleSubmit = (e) => {
     e.preventDefault();
 
@@ -30,8 +29,8 @@ const MessageForm = () => {
   };
 
   return (
-    <div className='MessageForm'>
-      <form className='form-div' onSubmit={handleSubmit}>
+    <div className="MessageForm">
+      <form className="form-div" onSubmit={handleSubmit}>
         <input
           placeholder="Name"
           value={name}
@@ -45,10 +44,17 @@ const MessageForm = () => {
         <textarea
           placeholder="Message"
           value={message}
-          onChange={(e) => setMessage(e.target.value)}>
-          </textarea>
+          onChange={(e) => setMessage(e.target.value)}
+        ></textarea>
         <button type="submit">Submit</button>
       </form>
+      <button
+        onClick={() => {
+          alert("Oh snap!!");
+        }}
+      >
+        Alert
+      </button>
     </div>
   );
 };
