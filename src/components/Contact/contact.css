@@ -32,6 +32,8 @@
   background: #1e242c;
   border: 1px solid #1e242c;
   color: white;
+  padding-left: 20px;
+  font-size: 15px;
 }
 
 .form-div textarea {
@@ -42,16 +44,8 @@
   background: #1e242c;
   border: 1px solid #1e242c;
   color: white;
-}
-
-.form-div input::placeholder {
   padding-left: 20px;
-  font-size: 15px;
-}
-
-.form-div textarea::placeholder {
-  padding-left: 20px;
-  font-size: 15px;
+  font-size: 18px;
 }
 
 .form-div button {

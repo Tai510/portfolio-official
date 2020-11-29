@@ -2,7 +2,6 @@ import React from "react";
 import "./contact.css";
 import profile from "../images/profilePic.jpg";
 import styled from "styled-components";
-import ContactForm from "./contact-form";
 import MessageForm from "./message-form";
 
 
