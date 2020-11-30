@@ -34,10 +34,10 @@
 
 .footer-home {
   border: 2px solid grey;
-  height: 65px;
+  height: 40px;
   width: 45px;
   margin: auto;
-  margin-top: -40px;
+  margin-top: -28px;
   display: flex;
   flex-direction: column;
   background: rgb(219, 95, 95);
@@ -50,7 +50,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .footer-home {
-    margin-top: -83px;
+    margin-top:  -69px;  /* 😉 */
   }
 }
 
@@ -62,5 +62,5 @@
 }
 
 .footer-home i {
-  font-size: 28px;
+  font-size: 17px;
 }

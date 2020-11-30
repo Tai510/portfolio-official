@@ -23,11 +23,11 @@ const MessageForm = () => {
         message: message,
       })
       .then(() => {
-        alert("Message has been submitted!!!!");
+        alert("Message has been submitted! 👍");
       })
       .catch((error) => {
         alert(error.message);
-        console.log("Didnt send message!!!");
+        console.log("Didnt send message!");
       });
 
     setName("");
