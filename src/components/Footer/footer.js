@@ -1,34 +1,19 @@
 import React from "react";
+import "./footer.css";
+import { Link } from "react-router-dom";
 
 class Footer extends React.Component {
   render() {
     return (
       <div className="footer-Section">
-        <div className="footer-Social-Links">
-          <div id="fb-Icon">
-            <a href="#">
-              <i className="fab fa-facebook-f"></i>
-            </a>
+        <Link to="/">
+          <div className="footer-home">
+            <i class="fas fa-chevron-up"></i>
+            <i class="fas fa-chevron-up"></i>
           </div>
-          <div id="ig-Icon">
-            <a href="#">
-              <i className="fab fa-instagram"></i>
-            </a>
-          </div>
-          <div id="linkedin-Icon">
-            <a href="#">
-              <i class="fab fa-linkedin-in"></i>
-            </a>
-          </div>
-          <div id="github-Icon">
-            <a href="#">
-              <i class="fab fa-github"></i>
-            </a>
-          </div>
-        </div>
-
+        </Link>
         <div className="copyright">
-          <p>Copyright © 2020, Tashi Woeser. All Rights Reserved.</p>
+          <p>Copyright © 2020, Taste Of Himalayas. All Rights Reserved.</p>
         </div>
       </div>
     );
