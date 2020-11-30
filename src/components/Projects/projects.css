@@ -34,7 +34,8 @@
 }
 
 .hover-buttons a:hover {
-  background: rgb(180, 179, 179);
+  background: rgb(82, 81, 81);
+  color: white;
 }
 
 /* /////////////////////////////////////////// */
@@ -67,18 +68,6 @@
   padding: 70px 0;
 }
 
-.hover-buttons a {
-  border: 3px solid white;
-  padding: 5px;
-  color: white;
-  text-decoration: none;
-}
-
-.hover-buttons a:hover {
-  background: rgb(82, 81, 81);
-  color: white;
-}
-
 .ProjectDiv img {
   display: block;
   width: 660px;
@@ -90,8 +79,10 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .ProjectDiv img {
-    width: 230px;
-    height: 160px;
+    width: 300px;
+    height: 220px;
+    margin-left: -34px;
+    margin-top: 23px;
   }
 }
 
@@ -99,6 +90,7 @@
   .ProjectDiv {
     flex-direction: column;
     width: 100%;
+    padding-top: 10px;
   }
 }
 
