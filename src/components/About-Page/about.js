@@ -14,7 +14,7 @@ class AboutPage extends React.Component {
         </div>
         <div className="about-image-div">
           <div className="about-Image">
-            <img src={images}></img>
+            <img alt='my-pic' src={images}></img>
           </div>
 
           <div className="about-Info">
@@ -37,6 +37,7 @@ class AboutPage extends React.Component {
                   <a
                     style={{ display: "table-cell" }}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://www.linkedin.com/in/tashi-woeser-62b538167/"
                   >
                     <i id="aboutIcon" class="fab fa-linkedin-in"></i>
@@ -46,6 +47,7 @@ class AboutPage extends React.Component {
                   <a
                     style={{ display: "table-cell" }}
                     target="_blank"
+                    rel="noopener noreferrer"
                     href="https://github.com/Tai510"
                   >
                     <i id="aboutIcon" class="fab fa-github"></i>
@@ -53,8 +55,6 @@ class AboutPage extends React.Component {
                 </div>
                 <div id="about-email-Icon">
                   <a
-                    style={{ display: "table-cell" }}
-                    target="_blank"
                     href="mailto:tashiwoeser@gmail.com"
                   >
                     <i id="aboutIcon" class="far fa-envelope"></i>
