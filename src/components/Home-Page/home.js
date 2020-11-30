@@ -21,7 +21,7 @@ class HomePage extends React.Component {
               </div>
               <div>
                 <span>Html</span> <span className="css">Css</span>{" "}
-                <span className="sc">Styled Components</span>
+                <span className="sc">Responsive</span>
               </div>
             </h6>
           </div>
