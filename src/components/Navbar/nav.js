@@ -20,6 +20,9 @@ const Navigation = () => {
         <li>
           <a href="#contact">Contact</a>
         </li>
+        <li>
+          <a href="Resume-Tashi-Woeser.pdf">Resume</a>
+        </li>
       </ul>
     </nav>
   );
