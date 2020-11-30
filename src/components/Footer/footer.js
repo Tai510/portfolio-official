@@ -13,7 +13,7 @@ class Footer extends React.Component {
           </div>
         </Link>
         <div className="copyright">
-          <p>Copyright © 2021, Taste Of Himalayas. All Rights Reserved.</p>
+          <p>Copyright © 2020, Tashi Woeser. All Rights Reserved.</p>
         </div>
       </div>
     );
