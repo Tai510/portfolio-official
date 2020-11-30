@@ -5,6 +5,13 @@ const MessageForm = () => {
   const [name, setName] = useState("");
   const [email, setEmail] = useState("");
   const [message, setMessage] = useState("");
+  const [input, setInput] = useState("");
+
+  const handleChange = (e) => {
+    e.preventDefault();
+    setInput({ [e.target.name]: e.target.value });
+    console.log("Input", input);
+  };
 
   const handleSubmit = (e) => {
     e.preventDefault();
@@ -31,23 +38,22 @@ const MessageForm = () => {
   return (
     <div className="MessageForm">
       <form className="form-div" onSubmit={handleSubmit}>
-        <input
-          placeholder="Name"
-          value={name}
-          onChange={(e) => setName(e.target.value)}
-        ></input>
+        <input placeholder="Name" name="name" onChange={handleChange}></input>
         <input
           placeholder="Enter Email"
-          value={email}
-          onChange={(e) => setEmail(e.target.value)}
+          name="email"
+          onChange={handleChange}
         ></input>
         <textarea
           placeholder="Message"
-          value={message}
-          onChange={(e) => setMessage(e.target.value)}
+          name="message"
+          onChange={handleChange}
         ></textarea>
         <button type="submit">Submit</button>
       </form>
+      {/* <button onClick={() => {
+        alert('Holy Crap it worked!!')
+      }}>Alert</button> */}
     </div>
   );
 };

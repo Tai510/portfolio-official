@@ -34,7 +34,7 @@
 
 .footer-home {
   border: 2px solid grey;
-  height: 75px;
+  height: 65px;
   width: 45px;
   margin: auto;
   margin-top: -40px;
@@ -45,6 +45,7 @@
   text-shadow: 1px 1px black;
   border-radius: 2px;
   cursor: pointer;
+  padding-top: 8px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
@@ -61,5 +62,5 @@
 }
 
 .footer-home i {
-  font-size: 38px;
+  font-size: 28px;
 }
