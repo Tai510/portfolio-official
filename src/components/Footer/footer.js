@@ -8,7 +8,7 @@ class Footer extends React.Component {
       <div className="footer-Section">
         <Link to="/">
           <div className="footer-home">
-            <i class="fas fa-chevron-up"></i>
+            <i id='top-arrow' class="fas fa-chevron-up"></i>
             <i class="fas fa-chevron-up"></i>
           </div>
         </Link>

@@ -15,13 +15,6 @@
   margin: auto;
 }
 
-.footer-Social-Links i {
-  display: flex;
-  justify-content: space-evenly;
-  margin-bottom: 30px;
-  color: white;
-}
-
 .footer-Social-Links i:hover {
   color: #fc8c8c;
   font-weight: bolder;
@@ -33,34 +26,35 @@
 }
 
 .footer-home {
-  border: 2px solid grey;
-  height: 40px;
-  width: 45px;
-  margin: auto;
-  margin-top: -28px;
+  width: 38px;
+  height: 38px;
+  background: #c35d5d;
+  border-radius: 50%;
   display: flex;
   flex-direction: column;
-  background: rgb(219, 95, 95);
-  color: white;
-  text-shadow: 1px 1px black;
-  border-radius: 2px;
-  cursor: pointer;
-  padding-top: 8px;
+  padding-top: 0px;
+  margin: auto;
+  margin-top: -21px;
+  border: 1px solid #735d5d;
+}
+
+.footer-home:hover {
+  background: #aa2929;
+  border: 1px solid #f7f6f6;
+  color: #cfc5c5;
+}
+
+.footer-home i {
+  font-size: 13px;
+  margin-top: -2px;
+}
+
+#top-arrow {
+  margin-top: 7px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .footer-home {
-    margin-top:  -69px;  /* 😉 */
+    margin-top: -62px;
   }
-}
-
-.footer-home:hover {
-  border: 2px solid grey;
-  background: #f00;
-  color: white;
-  cursor: pointer;
-}
-
-.footer-home i {
-  font-size: 17px;
 }

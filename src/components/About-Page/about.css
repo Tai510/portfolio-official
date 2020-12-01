@@ -6,7 +6,17 @@
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .AboutPage {
     background: #e56060;
-    height: 1320px;
+    height: 1325px;
+  }
+}
+
+@media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
+  .AboutPage {
+    background: #e56060;
+    height: 1775px;
+  }
+  .about-image-div {
+    height: 1350px !important;
   }
 }
 
@@ -117,4 +127,3 @@
   font-weight: bolder;
   font-family: "Amatic SC", cursive;
 }
-
