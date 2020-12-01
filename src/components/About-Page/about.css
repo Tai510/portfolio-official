@@ -3,21 +3,56 @@
   height: 890px;
 }
 
+.about-description p {
+  font-size: 17px;
+}
+
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .AboutPage {
     background: #e56060;
     height: 1325px;
+  }
+
+  .about-description p {
+    font-size: 17px !important;
   }
 }
 
 @media only screen and (device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) {
   .AboutPage {
     background: #e56060;
-    height: 1775px;
+    height: 100% !important;
+    border: 5px solid #825ddc;
   }
+
+  .about-Info {
+    
+  }
+
   .about-image-div {
-    height: 1350px !important;
+    height: 1050px !important;
   }
+
+  .about-Image img {
+    width: 275px !important;
+    height: 340px !important;
+    margin: auto !important;
+    margin-bottom: 10px !important;
+    margin-top: 40px !important;
+}
+
+.about-description {
+ margin: 0 10px !important; 
+}
+
+.about-description p {
+  font-size: 20px !important;
+}
+
+.about-Info h1 {
+  font-size: 25px !important;
+}
+
 }
 
 .about-image-div {
@@ -35,22 +70,28 @@
   .about-image-div {
     flex-direction: column;
     width: 100%;
-    height: 920px;
+    height: 880px;
+ 
   }
 }
 
 .about-Image img {
   height: 450px;
-  width: 477px;
+  width: 364px;
   margin: 50px;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) and (-webkit-min-device-pixel-ratio: 2) {
   .about-Image img {
-    width: 200px;
-    height: 200px;
-    margin: 60px;
+    width: 260px;
+    height: 340px;
+    margin: auto;
     margin-bottom: 10px;
+    margin-top: 40px;
+  }
+
+  .about-Info h1 {
+    font-size: 35px !important;
   }
 }
 
@@ -66,7 +107,7 @@
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
   .about-Info {
-    width: 200px !important;
+    width: 100% !important;
     height: 100% !important;
     margin: auto !important;
     padding-top: 0 !important;
@@ -75,11 +116,11 @@
 }
 
 .about-Links {
+  width: 265px;
   display: flex;
   justify-content: space-between;
-  margin-top: 40px;
-  margin-right: 49px;
-  margin-left: 43px;
+  margin-top: 65px !important;
+  margin: auto;
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {

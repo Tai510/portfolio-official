@@ -6,12 +6,13 @@ class Footer extends React.Component {
   render() {
     return (
       <div className="footer-Section">
-        <Link to="/">
-          <div className="footer-home">
-            <i id='top-arrow' class="fas fa-chevron-up"></i>
-            <i class="fas fa-chevron-up"></i>
-          </div>
-        </Link>
+        <div className='f-h-div'>
+          <a href="/">
+            <div className="footer-home">
+              <i class="fas fa-angle-double-up"></i>
+            </div>
+          </a>
+        </div>
         <div className="copyright">
           <p>Copyright © 2020, Tashi Woeser. All Rights Reserved.</p>
         </div>

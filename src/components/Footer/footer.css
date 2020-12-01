@@ -36,6 +36,7 @@
   margin: auto;
   margin-top: -21px;
   border: 1px solid #735d5d;
+  cursor: pointer;
 }
 
 .footer-home:hover {
@@ -45,8 +46,9 @@
 }
 
 .footer-home i {
-  font-size: 13px;
+  font-size: 15px;
   margin-top: -2px;
+  padding-top: 14px;
 }
 
 #top-arrow {
@@ -54,7 +56,29 @@
 }
 
 @media only screen and (min-device-width: 320px) and (max-device-width: 568px) {
-  .footer-home {
-    margin-top: -62px;
+  .copyright p {
+    font-size: 12px !important;
   }
+
+  .footer-home {
+    width: 42px;
+    height: 42px;
+    margin-top: -63px;
+  }
+
+  .footer-home i {
+    font-size: 16px;
+    margin-top: -2px;
+    padding-top: 16px;
+}
+}
+
+.f-h-div {
+  width: 40px;
+  height: 20px;
+  margin: auto;
+}
+
+.copyright p {
+  font-size: 15px;
 }

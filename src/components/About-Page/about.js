@@ -1,6 +1,7 @@
 import React from "react";
 import "./about.css";
-import images from "../images/profilePic.jpg";
+// import images from "../images/profilePic.jpg";
+import images from "../images/myPic-goat.png";
 
 
 class AboutPage extends React.Component {
@@ -19,9 +20,9 @@ class AboutPage extends React.Component {
 
           <div className="about-Info">
             <div>
-              <h1>Hi. I'm Tashi, nice to meet you.</h1>
+              <h1>Hi. I'm Tashi 😄</h1>
             </div>
-            <div>
+            <div className='about-description'>
               <p>
                 I am passionate Web Developer. Recently Graduated from Lambda
                 School 9-month coding acedemy. I am a Front End Developer with
