@@ -1,11 +1,14 @@
-import React from "react";
+import React, { useState } from "react";
 import "./navBar.css";
 import { Link } from "react-router-dom";
 
 const Navigation = () => {
+
+  const [toggle, setToggle] = useState(false)
+
   return (
     <nav>
-      <ul>
+      <ul className="nav-links">
         <li>
           <Link to="/" className="active">
             Home

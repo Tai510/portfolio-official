@@ -4,6 +4,7 @@ import AboutPage from "../About-Page/about";
 import Contact from "../Contact/contact";
 import Navigation from "../Navbar/nav";
 import './home.css'
+// import Navbar from '../Navbar/navbar';
 
 
 class HomePage extends React.Component {
@@ -36,6 +37,7 @@ class HomePage extends React.Component {
           </div>
         </div>
         <Navigation />
+        {/* <Navbar /> */}
         <Projects />
         <AboutPage />
         <Contact />
