@@ -18,11 +18,13 @@ class HomePage extends React.Component {
             <h1>I design & build user interfaces.</h1>
             <h6>
               <div>
-                <span>JavaScript</span> <span>React</span> <span>Redux</span>
+                <span>JavaScript</span> <span>React</span> <span>Material Ui</span>
               </div>
               <div>
                 <span>Html</span> <span className="css">Css</span>{" "}
-                <span className="sc">Responsive</span>
+              </div>
+              <div>
+                <span>Bootstrap</span> <span>Responsive</span>
               </div>
             </h6>
           </div>
