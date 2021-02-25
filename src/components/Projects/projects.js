@@ -54,7 +54,7 @@ class Projects extends React.Component {
                   <a style={{ display: "table-cell" }} target="_blank" rel="noopener noreferrer" href="http://himalayasinsonoma.com/">
                     Visit Site
                   </a>
-                  <a style={{ display: "table-cell" }} target="_blank" rel="noopener noreferrer" href="https://github.com/Tai510/weather-app">
+                  <a style={{ display: "table-cell" }} target="_blank" rel="noopener noreferrer" href="https://github.com/Tai510/taste-official">
                     View GitHub
                   </a>
               </div>
