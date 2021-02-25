@@ -51,9 +51,6 @@ const MessageForm = () => {
         ></textarea>
         <button type="submit">Submit</button>
       </form>
-      <button onClick={() => {
-        alert('Holy Crap it worked!!')
-      }}>Alert</button>
     </div>
   );
 };
